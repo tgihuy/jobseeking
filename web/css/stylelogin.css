@@ -1,0 +1,79 @@
+.banner {
+    width: 100%; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.title {
+    width: 60%; 
+    height: 80%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-row {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-row input[type=text], .title-row input[type=password] {
+    padding: 20px;
+    margin: 10px 0;
+    width: 120%;
+    border-radius: 20px;
+    border:  1px solid rgb(216, 213, 213);
+    font-size: 18px;
+}
+
+input[type=submit] {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 15px;
+    border:  1px solid rgb(216, 213, 213);
+    background-color: black;
+    color: white;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgb(44, 42, 42);
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    margin-left: 20%;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(203, 200, 200);
+}
+
+a{
+    margin-top: 20%;
+    margin-bottom: 50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: rgb(210, 208, 208);
+}
